@@ -1,0 +1,41 @@
+{
+  "name": "infront.io",
+  "version": "0.0.0",
+  "description": "A professional frontend toolkit.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "infront.io": "./bin/infront.io"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EloB/infront.io.git"
+  },
+  "keywords": [
+    "frontend",
+    "development",
+    "toolkit",
+    "server",
+    "proxy"
+  ],
+  "author": "Olle \"EloB\" Bröms",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "consolidate": "~0.9.1",
+    "socket.io": "~0.9.14",
+    "connect": "~2.7.9",
+    "request": "~2.21.0",
+    "mkdirp": "~0.3.5"
+  },
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.9.0",
+    "supertest": "~0.6.0"
+  }
+}
