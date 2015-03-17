@@ -27,11 +27,11 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
+    "connect": "^3.3.5",
     "consolidate": "~0.9.1",
-    "socket.io": "~0.9.14",
-    "connect": "~2.7.9",
+    "mkdirp": "~0.3.5",
     "request": "~2.21.0",
-    "mkdirp": "~0.3.5"
+    "socket.io": "~0.9.14"
   },
   "devDependencies": {
     "should": "~1.2.2",
